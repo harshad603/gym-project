@@ -1,0 +1,548 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(138, 134, 134);
+    position: fixed;
+    opacity: 0.7;
+   
+  
+}
+.navbar{
+    width: 700px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 800px;
+    z-index: 1;
+
+}
+.navbar a{
+    font-size: 22px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(29, 26, 26)
+    
+}
+
+.navbar a :hover{
+    color: red;
+ }
+
+
+
+nav h1{
+    height:50px;
+    width:400px;
+    font-size: 40px;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}  
+   
+.vdo video{
+    
+    min-width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    
+}
+.vdo h4{
+   font-size: 25px;
+
+   position: absolute; 
+   top: 200px;
+   left: 500px;
+   color: white;
+} 
+.vdo h1{
+    font-size: 80px;
+    position: absolute;
+    top: 250px;
+    left: 280px;
+    color: white;
+    
+}
+.active{
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 20px;
+    background-color: #ed563b;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 70px;
+    margin-left:350px ;
+    text-decoration: none;
+}
+.main{
+    width: 100%;
+    height: auto;
+ }
+.sub{
+    width: 700px;
+    height: 300px;
+    position: relative;
+    left: 350px;
+    top: 0px;
+}
+.sub h1{
+    position: relative;
+    top: 120px;
+    left: 200px;
+}
+.sub img{
+    position: relative;
+    top: 130px;
+    left: 330px;
+}
+.sub p{
+    position: relative;
+    top: 160px;
+    left: 150px;
+    width: 400px;
+    text-align: justify;
+}
+
+.small {
+    width: 92%;
+    height: 600px;
+    margin-left: 80px;
+    display: grid;
+    gap: 1px;
+    padding-left: 10px;
+    grid-template-columns: auto auto ;
+}
+
+.box1 {
+    width: 400px;
+    height: 200px;
+    position: relative;
+}  
+.box1 img {
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+
+.box1 h4 {
+    position: relative;
+    bottom:10px;
+    left: 180px;
+    bottom: 50px;
+    font-size: 25px;
+}
+
+.box1 p {
+    text-align: justify;
+    max-width: 70%;
+    position: relative;
+    left: 180px;
+    bottom: 40px;
+}
+.middle-img h1{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    color: white;
+    font-size: 40px;
+
+}
+.middle-img img{
+    width: 100%;
+    height: 400px;
+    
+}
+.middle-img{
+    position: relative;
+}
+.middle-img p{
+    width: 60%;
+    position: absolute;
+    top: 180px;
+    left: 350px;
+    color: white;
+    font-size: 20px;
+
+}
+.our-classes{
+    width: 100%;
+    height: 1000px;
+   
+    
+}
+.our-classes-info{
+    width: 500px;
+    height: 200px;
+    
+    position: relative;
+    left: 400px;
+    top: 100px;
+}
+.our-classes-info h1{
+    position: relative;
+    top: 10px;
+    left: 150px;
+}
+.our-classes-info img{
+    position: relative;
+    top: 20px;
+    left: 230px;
+}
+.our-classes-info p{
+    position: relative;
+    top: 30px;
+    left: 80px;
+    width: 400px;
+    text-align: justify;
+}
+.time{
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    margin: 20px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    box-shadow: 7px 7px 7px rgb(49, 48, 48);
+}
+.time img{
+    position: relative;
+    left: 20px;
+    top: 25px;
+
+}
+.time a{
+    position: relative;
+    left:40px ;
+    top: 15px;
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+    font-weight: bold;
+}
+.time a :hover{
+    color: red;
+}
+.workout{
+    width: 600px;
+    height: 400px;
+  
+    position: relative;
+    left: 600px;
+    bottom: 300px;
+    box-shadow: 4px 4px 4px rgb(97, 91, 91);
+    
+}
+.workout img{
+    width: 600px;
+    height: 200px;
+}
+.workout h4{
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+}
+.workout p{
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    text-align: justify;
+    width: 98%;
+}
+ .workout a{
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-size: 40px;
+    color: #fff;
+    
+    
+    
+}
+ 
+.worktag{
+    width: 300px;
+    height: 60px;
+    background-color:red;
+    position: relative;
+    top: 150px;
+    left: 100px;
+    border-radius: 10px;
+}  
+.workout a:hover{
+   color: black;
+}
+.shedule{
+    width: 100%;
+    height: 855px;
+    background-color: #ed563b;
+    position: relative;
+}
+.shedule img{
+    width: 100%;
+    height: auto;
+   
+}
+.shedule-container{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    bottom: 600px;
+    left: 430px;
+    
+   
+    
+}
+.shedule-container img{
+    width: 40px;
+    position: relative;
+    left: 220px;
+    top: 20px;
+}
+.shedule-container h1{
+    position: relative;
+    left: 100px;
+    top: 10px;
+    color: white;
+}
+.shedule-container p{
+    position: relative;
+    top: 40px;
+    left: 50px;
+    width: 90%;
+    text-align: justify;
+    color: white;
+}
+table{
+    width: 60%;
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    height: 400px;
+}
+table,td,th{
+    border: 1px solid white;
+    border-collapse: collapse;
+    color: white;
+    text-align: center;
+}
+.days{
+    width: 500px;
+    height: 30px;
+    position: absolute;
+    top: 330px;
+    left: 450px;
+}
+.days h4{
+    color:red;
+    font-size: 20px;
+}
+.trainers{
+    width: 100%;
+    height: 800px;
+    
+    
+    
+}
+.trainers1{
+    width: 350px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    display: inline-block;
+    margin: 20px;
+    box-shadow: 4px 4px 4px 4px rgb(151, 147, 147);
+    border-radius: 10px;
+}
+.trainers-info{
+    width: 500px;
+    height: 200px;
+   
+    
+    position: relative;
+    left: 400px;
+    top: 100px;
+}
+.trainers-info h1{
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.trainers-info img{
+    position: relative;
+    top: 30px;
+    left: 220px;
+    border-radius: none;
+}
+.trainers-info p{
+    position: relative;
+    top: 60px;
+    left: 80px;
+    width: 400px;
+    text-align: justify;
+}
+.trainers1 img{
+    position: relative;
+    top: 20px;
+    left: 30px;
+
+}
+.trainers h6{
+  position: relative;
+  top: 30px;
+  left: 30px;
+  font-size: 15px;
+  color: red;
+}
+.trainers h3{
+  position: relative;
+  top: 40px;
+  left: 30px;
+  font-size: 25px;
+}
+.trainers p{
+    width: 80%;
+    position: relative;
+    top: 55px;
+    left: 30px;
+    text-align: justify;
+}
+ .social-icons{
+    width: 140px;
+    height: 30px;
+   
+    position: relative;
+    top: 80px;
+    left: 30px;
+} 
+.fa{
+font-size: 20px;
+}
+.fa-facebook-official{
+color: blue;
+}
+.fa-twitter-square{
+color: rgb(95, 121, 252);
+}
+.fa-instagram{
+color: #ed563b;
+} 
+.social-icons i{
+margin: 5px;
+} 
+.last{
+    width: 100%;
+    height: 600px;
+    
+    position: relative;
+    top: 250px;
+}
+iframe{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 48%;
+    height: 600px;
+}
+
+
+#contact {
+padding: 5rem 0;
+background: rgb(226, 226, 226);
+}
+
+.contact-container {
+display: flex;
+background: #fff;
+}
+
+.contact-img {
+width: 50%;
+}
+
+.contact-img img {
+display: block;
+height: 400px;
+width: 100%;
+object-position: center;
+object-fit: cover;
+}
+
+.form-container {
+padding: 1rem;
+width: 40%;
+margin: auto;
+position: relative;
+bottom: 550px;
+left: 340px;
+}
+
+.form-container input {
+display: block;
+width: 100%;
+border: none;
+border-bottom: 2px solid #ddd;
+padding: 1rem 0;
+box-shadow: none;
+outline: none;
+margin-bottom: 1rem;
+color: #444;
+font-weight: 500;
+}
+
+.form-container textarea {
+display: block;
+width: 100%;
+border: none;
+border-bottom: 2px solid #ddd;
+color: #444;
+outline: none;
+padding: 1rem 0;
+resize: none;
+}
+
+.form-container h2 {
+font-size: 2.7rem;
+font-weight: 500;
+color: white;
+margin-bottom: 1rem;
+margin-top: -1.2rem;
+}
+
+.form-container a {
+font-size: 50px;
+
+color:white;
+
+position: relative;
+top: 40px;
+left: 170px;
+}
+.form-container a:hover{
+color: red;
+}
+
+#footer h2 {
+text-align: center;
+font-size: 1.4rem;
+padding: 2.6rem;
+font-weight: 500;
+color: #fff;
+background: rgb(65, 65, 65);
+position: relative;
+top: 800px;
+}
+.last img{
+width: 51%;
+height: 600px;
+}
